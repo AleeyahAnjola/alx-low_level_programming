@@ -22,7 +22,7 @@ int main(void)
 		b = c;
 		c = a + b;
 
-		if (counter < 98)
+		if (count < 98)
 		{
 			printf(", ");
 		}
