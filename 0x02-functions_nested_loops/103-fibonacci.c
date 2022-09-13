@@ -21,6 +21,6 @@ int main(void)
 		b = c;
 		c = a + b;
 	}
-	pritntf("%d\n", counter);
+	printf("%d\n", counter);
 	return (0);
 }
