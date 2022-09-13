@@ -13,7 +13,7 @@ int main(void)
 	{
 		if (m % 3 == 0 || m % 5 == 0)
 		{
-			n += 0;
+			n += m;
 		}
 	}
 	printf("%d\n", n);
