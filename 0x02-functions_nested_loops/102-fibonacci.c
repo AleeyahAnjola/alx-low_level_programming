@@ -11,10 +11,10 @@ int main(void)
 	long int n = m + 1;
 	long int o = m + n;
 
-	printf("%d, %d, ", m, n);
+	printf("%ld, %ld, ", m, n);
 	while (count < 50)
 	{
-		printf("%d", o);
+		printf("%ld", o);
 		count++;
 		m = n;
 		n = o;
