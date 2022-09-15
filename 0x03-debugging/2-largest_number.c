@@ -13,6 +13,6 @@ int largest_number(int a, int b, int c)
 	int largestnumber;
 
 	largestnumber = (a > b) ? a : b;
-	largestnumber = (largestnumber > c) ? largest : c;
-	return (largest);
+	largestnumber = (largestnumber > c) ? largestnumber : c;
+	return (largestnumber);
 }
