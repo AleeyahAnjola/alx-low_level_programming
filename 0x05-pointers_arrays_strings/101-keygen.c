@@ -35,11 +35,11 @@ int main(void)
 		{
 			if (password[index] >= (33 + diff_half1))
 			{
-				passowrd[index] -= diff_half1;
+				password[index] -= diff_half1;
 				break;
 			}
 		}
-		for (index = 0; passowrd[index]; index++)
+		for (index = 0; password[index]; index++)
 		{
 			if (password[index] >= (33 + diff_half2))
 			{
