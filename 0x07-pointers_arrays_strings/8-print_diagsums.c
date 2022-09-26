@@ -10,23 +10,23 @@
 
 void print_diagsums(int *a, int size)
 {
+	/*Declaring variables*/
+	int i;
+	int sum1, sum2;
 
-	int k;
-	int sumA, sumB;
+	sum1 = 0;
+	sum2 = 0;
 
-	sumA = 0;
-	sumB = 0;
-
-	k = 0;
-	while (k < size)
+	i = 0;
+	while (i < size) /*number repetitions*/
 	{
+		/*sums for diagsums*/
+		sum1 = sum1 + *(a + i * size + i);
+		sum2 = sum2 + *(a + i * size + size - i - 1);
 
-		sumA = sumA + *(a + k * size + k);
-		sumB = sumB + *(a + k * size + size - k - 1);
-
-		k++;
+		i++; /*add +1*/
 	}
 
-	printf("%k, %k\n", sumA, sumB);
+	printf("%i, %i\n", sum1, sum2);
 
 }
