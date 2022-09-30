@@ -1,1 +1,1 @@
-New Static Libraries
+Static Libraries
